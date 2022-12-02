@@ -24,8 +24,18 @@
              <a href="/register" style="text-decoration: none">Need Account? <span class="text-danger">Register</span></a>
             </div>
             <div class="col-md-6">
-              <a href="ForgotPassword"  class="text-dark" style="text-decoration: none">Forgot Password?</a>
+              <a routerLink="/forgot-password"  class="text-dark" style="text-decoration: none">Forgot Password?</a>
             </div>
+          </div>
+          <div class="row mt-2">
+            <a (click)="signinwithGoogle()" style="cursor: pointer">
+            <div class = "card">
+              <div class="card-body">
+
+           <img src="../../../assets/icon/google-logo-9808-16x16.ico" >   Sign in with Google
+          </div>
+        </div>
+      </a>
           </div>
         </form>
 

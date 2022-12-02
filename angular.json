@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "SchoolManagment:build:production",
+            "firebaseProject": "school-management-system-dcc7d",
+            "firebaseHostingSite": "school-management-system-dcc7d"
+          }
         }
       }
     }

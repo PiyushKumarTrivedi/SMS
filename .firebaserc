@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "school-management-system-dcc7d": {
+      "hosting": {
+        "SchoolManagment": [
+          "school-management-system-dcc7d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "school-management-system-dcc7d"
+  }
+}
